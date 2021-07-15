@@ -1,0 +1,1147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	/*font-family: 'Poppins', sans-serif !important;*/
+	color: rgba(0, 0, 0, 0.8);
+	font-family: arial;
+	/*font-size: 12px;*/
+}
+.exam p{
+	margin-top: 20px;
+}
+.exam a{
+	color: rgba(0, 128, 0, 0.5);
+	text-decoration: none !important;
+}
+.headercover{
+	position: relative;
+	height: 500px;
+	background-position: center center;
+	background-size: cover;
+	
+	
+}
+
+.thebestwaycover{
+	background-color: rgba(255,255,255,0.6);
+	height: 490px;
+	padding-top: 100px;
+}
+.thebestway{
+
+	text-align: center;
+
+	
+
+}
+.thebestway a{
+	border: 1px solid rgba(0, 128, 0, 0.7);
+	background-color: rgb(0, 128, 0 ,0.7);
+	padding: 10px 12px 10px 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+.thebestway a: hover{
+	
+	background-color:white;
+	
+}
+#tour{
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+
+.topbar{
+	background-color: rgba( 0, 128,0 ,0.6);
+}
+.topbar a{
+      text-decoration: none ;
+      color: white;
+
+}
+.topbar ul{
+	padding: 15px 0px 15px 0;
+	margin: 0;
+	padd
+}
+.topbar ul li{
+	list-style: none;
+	display: inline-block;
+}
+.topleft ul li{
+     margin-right:20px;
+}
+.topright{
+	text-align: right;
+}
+.topright ul li{
+     margin-left:10px;
+}
+.topright a{
+	font-size: 13px;
+}
+.logoimg img{
+	width: 200px;
+	height: 100px;
+	
+}
+
+.ulsame ul{
+	float: right;
+}
+.green1{
+	color: rgba(0, 128, 0, 0.7);
+}
+.ulsame ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}					
+.ulsame li a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.7);
+	
+
+}
+.bottom1{
+     margin-top: 63px;
+}
+.logodiv{
+	background-color: rgba(255,255,255,0.8);
+	font-family: arial;
+	/*font-size: 14px;*/
+	z-index: -1;
+}
+
+.notice{
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+.notice1{
+	background-image: url(../img/notice1.jpeg);
+	background-position: center center;
+	background-size: cover;
+	/*position: absolute;*/
+	padding: 0px !important;
+	
+
+}
+.noticeback1{
+           background-color: rgba(0, 0, 128, 0.9);
+           width: 100%;
+           height: 224px;
+}
+
+.noticeback2{
+           background-color: rgba(0, 128, 0, 0.7);
+           width: 100%;
+           height: 224px;
+           color: white;
+           display: grid;
+     place-items: center;
+}
+.noticeback3{
+           background-color: rgba(0, 255, 255, 0.9);
+           width: 100%;
+           height: 224px;
+}
+
+.paragraph{
+	font-size: 13px;
+	color: grey;
+}
+.grey{
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.notice2{
+	background-color: green;
+	background-image: url(../img/notice1.jpeg);
+	background-position: center center;
+	background-size: cover;
+	position: absolute;
+	padding: 0px !important;
+
+}
+
+.notice3{
+	background-image: url(../img/notice1.jpeg);
+	background-position: center center;
+	background-size: cover;
+	position: absolute;
+	background-color: red;
+	text-align: center;
+	/*border-left: 20px solid black;*/
+	padding: 0px !important;
+
+}
+.noticeinner{
+	padding: 20px;
+	text-align: center;
+}
+.ladypicture img{
+      width: 500px;
+      height: 400px;
+      float: right;
+      margin-right: 80px;
+}
+
+.welcometo{
+	padding: 50px 0px 0px 0px;
+}
+.welcome{
+	margin-left: 10px;
+}
+.welcome p{
+	color: rgba(128, 128, 128, 0.8);
+	font-size: 13px;
+}
+.welcome  a{
+	text-decoration: none !important;
+	color: black;
+	padding: 10px;
+	border: 1px solid grey;
+
+}
+#read{
+	color: rgba(0, 128, 0, 0.7);
+}
+#purchase{
+	color: white;
+	background-color: rgba(0, 128, 0, 0.7);
+	border: 1px solid rgba(0, 128, 0, 0.7);
+}
+.courseinner{
+	width: 60%;
+	text-align: center;
+	padding:100px 20px 70px 20px;
+}
+.choosecourse{
+	display: grid;
+	place-items: center;
+}
+.heading{
+	
+	letter-spacing: 1px;
+}
+
+.uxdesign{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid rgba(128, 128, 128, 0.5);
+}
+.uxdesigncenter{
+	text-align: center;
+}
+.uxdesign ul{
+	float: left;
+	margin-left: 20px;
+}
+.uxdesign ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.image{
+	background-image: url(../img/notice1.jpeg);
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	position: relative;
+}
+.imgheading {
+	width: 100%;
+	margin-top: 85%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-top: 10px;
+	color: white;
+
+
+}
+.imgheading h6{
+	display: block;
+	font-size: 13px;
+}
+.viewallcover{
+	padding: 80px 0px 100px 0px;
+}
+.viewall{
+	text-align: center;
+}
+.viewbtn{
+	background-color: rgba(0, 0, 0, 0.9);
+	border: none;
+	color: white;
+	padding: 15px 50px 15px 50px;
+}
+.btnregister{
+	background-color: rgba(0, 0, 0, 0.9);
+	border: none;
+	color: white;
+	padding: 10px 50px 10px 50px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.registercover{
+	background-image: url(../img/register.webp);
+	background-size: cover;
+	background-position: center;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.registereinner{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.registerform{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.img1 {
+	border: 1px solid rgba(195, 195, 195, 0.8);
+	height: 200px;
+}
+.img1 img{
+	width: 100%;
+	height: 200px;
+}
+.apart{
+	height: 300px;
+	background-color: rgb(0, 128, 128);
+	margin-top: 100px;
+
+}
+.apart1{
+	
+	margin-top: 100px;
+	color: white;
+}
+.apart2{
+	text-align: center;
+	margin-top: 130px;
+}
+.apart2 button{
+	 color: white;
+      background-color: rgb(0, 128, 128);
+      padding: 15px 40px 15px 40px;
+      border: 1px solid white;
+      float: ;
+ }
+ .imglit1 img{
+      width: 100%;
+      height: 190px;
+ }
+ .imglit2{
+ 	padding: 10px 0px 10px 0px;
+ 	font-size: 12px;
+ 	margin-top: 20px;
+ }
+ .grey1{
+ 	color: rgba(128, 128, 128, 0.8);
+ }
+ .black1{
+ 	color: rgba(0, 0, 0, 0.7);
+ }
+ .imglit2 p{
+ 	color: rgba(128, 128, 128, 0.8);;
+ }
+ .imglitcover{
+ 	height: 200px;
+ 	border: 1px solid rgba(192, 192, 192, 0.8);
+ }
+ .imglitcover2{
+ 	height: 200px;
+ 	border: 1px solid rgba(192, 192, 192, 0.8);
+ 	margin-top: 20px;
+ }
+ .feedbrain{
+ 	margin-top: 50px;
+ }
+
+ .viewbtn2 {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    color: white;
+    padding: 10px 50px 10px 50px;
+}
+.learningway{
+	height: 700px;
+	background-image: url(../img/learningway.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-top: 100px;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 100px;
+
+}
+.learningwayinner{
+     position: absolute;
+     left: 50%;
+     top:  50%;
+     transform: translate(-50% ,-50%);
+     background-color: rgba(255, 255, 255, 0.8);
+     display: inline-block;
+     width: 100%;
+     padding: 50px 0px 50px 0px;
+     text-align: center;
+     display: grid;
+     place-items: center;
+     margin-top: 120px;
+
+}
+
+.learningway1{
+	width: 500px;
+}
+.footertop{
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 53px 0px 53px 0px;
+	color: white;
+}
+.Subscribe{
+	background-color: #232425;
+	color: white;
+	padding: 9px 40px 9px 40px;
+	font-size: 13px;
+	border: none;
+}
+.latest{
+      margin-top: 10px;
+}
+.footerheading{
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+.footerlist ul li{
+	list-style: none;
+	margin-top: 10px;
+
+}
+.footer2{
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 50px 0px 50px 0px;
+	font-size: 12px;
+	font-family: arial;
+	
+}
+.footerlist6 h6{
+     font-size: 13px;
+}
+.footer2 h6{
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+.footerlist ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.footerlist img{
+     width: 50px;
+     height: 50px;
+     float: left;
+     margin-right: 10px;
+}
+.footerlist h4{
+    color: white;
+
+}
+.logodesign{
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 50%;
+	float: left;
+
+}
+.footerlist table tr td{
+	color: white;
+	padding: 0px 10px 0px 10px;
+}
+.lastfooter ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+
+}
+.lastfooter ul li a{
+	text-decoration: none;
+	color: white;
+}
+.lastfooter{
+	display: grid;
+	place-items: center;
+}
+.footerlastdiv{
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 20px 0px 20px 0px;
+	color: white;
+}
+.footerlastdiv ul{
+	margin: 0;
+	padding: 0;
+}
+.qualifiedcourse{
+     background-color: rgb(192, 192, 192,0.3);
+     padding: 60px 0px 60px 0px;
+}
+.qualifiedcourseinner{
+	text-align: center;
+}
+.greyp{
+	font-family: arial;
+	font-size: 13px;
+}
+
+.LoginCover{
+	position: sticky;
+}
+
+
+/*loginform css*/
+ a { text-decoration: none; }
+
+  h1 { font-size: 1em; }
+
+  h1, p {
+	margin-bottom: 10px;
+}
+
+  strong {
+	font-weight: bold;
+}
+
+  .uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+
+  #login {
+	margin: 50px auto;
+	width: 300px;
+}
+
+  form fieldset input[type="text"],
+input[type="password"] {
+  appearance: none;
+	background: #e5e5e5;
+	border: none;
+	border-radius: 3px;
+	color: #5a5656;
+	font-family: inherit;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 0px 10px;
+	width: 280px;
+}
+
+  form fieldset input[type="submit"] {
+  appearance: none;
+	background-color: rgba(0, 128, 0, 0.7);
+	border: none;
+	border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: inherit;
+	height: 50px;
+	text-transform: uppercase;
+	width: 280px;
+}
+
+ form fieldset a {
+	color: #5a5656;
+	font-size: 10px;
+}
+
+ form fieldset a:hover { text-decoration: underline; }
+
+ .btn-round {
+	background: #5a5656;
+	border-radius: 50%;
+	color: #f4f4f4;
+	display: block;
+	font-size: 12px;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 125px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50px;
+}
+
+.facebook-before {
+	background: #0064ab;
+	border-radius: 3px 0px 0px 3px;
+	color: #f4f4f4;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+  .facebook {
+	background: #0079ce;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 250px;
+}
+
+  .twitter-before {
+	background: #189bcb;
+	border-radius: 3px 0px 0px 3px;
+	color: #f4f4f4;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+
+ .twitter {
+	background: #1bb2e9;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 250px;
+}
+/*gallery css*/
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+
+
+.green{
+  background-color:#6fb936;
+}
+        .thumb{
+            margin-bottom: 30px;
+        }
+        
+        .page-top{
+            margin-top:85px;
+        }
+
+   
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+   /* contactus form*/
+   .ContactUsForm table tr td input[type="text"]{
+      width: 250px;
+      height: 5vh;
+      margin-bottom: 15px;
+   }
+   .ContactUsForm table tr td input[type="email"]{
+      width: 250px;
+      height: 5vh;
+      margin-bottom: 15px;
+   }
+   .ContactUsForm table tr td{
+   	padding-right: 10px;
+   }
+   .contactsubmit{
+   	color: white;
+   	width: 100%;
+   	background-color: rgba(0, 128, 0, 0.7);
+   	padding: 10px 0px 10px 0px;
+   	border: none;
+   }
+
+.ContactUsCover{
+	padding: 50px 0px 50px 0px;
+}
+
+/*/*/*/*/*Media queries css*/
+@media screen and (max-width: 1199px){
+
+	.image {
+    background-image: url(../img/notice1.jpeg);
+    width: 100%;
+    height: 211px;
+    text-align: center;
+    position: relative;
+}
+.uxdesign_price {
+    margin-left: 47px !important;
+    color: rgba(128, 0, 0, 0.5);
+}
+
+.uxdesign ul li{
+    font-size: 12px !important; 
+}
+.uxdesign span{
+	 font-size: 12px !important;
+}
+
+}
+
+
+
+@media screen and (width: 992px){
+
+.ContactUsForm{
+	font-size: 12px;
+}
+
+.contactsubmit {
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.7);
+    padding: 5px 0px 5px 0px;
+    border: none;
+}
+
+.ContactUsInfo p{
+    font-size: 0.8rem;
+}
+
+.ContactUsInfo h6{
+    font-size: 0.9rem;
+}
+
+.viewbtn {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    color: white;
+    padding: 8px 40px 8px 40px;
+}
+
+.viewallcover {
+    padding: 30px 0px 60px 0px;
+}
+
+.topright a {
+    font-size: 10px;
+}
+
+.topleft ul .fab{
+    font-size: 13px;
+}
+
+.bottom1 ul{
+	font-size: 12px !important;
+}
+
+.logo img {
+    width: 140px !important; 
+    height: 80px !important;
+}
+
+.bottom1 {
+    margin-top: 50px;
+}
+
+.thebestway a {
+    border: 1px solid rgba(0, 128, 0, 0.7);
+    background-color: rgb(0, 128, 0 ,0.7);
+    padding: 10px 12px 10px 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+.thebestway h1{
+  font-size: 2rem;
+}
+
+.noticeback1{
+           background-color: rgba(0, 0, 128, 0.9);
+           width: 100%;
+           height: 180px;
+}
+
+.noticeback2{
+           background-color: rgba(0, 128, 0, 0.7);
+           width: 100%;
+           height: 180px;
+           color: white;
+           display: grid;
+           place-items: center;
+}
+.noticeback3{
+           background-color: rgba(0, 255, 255, 0.9);
+           width: 100%;
+           height: 180px;
+}
+
+.image {
+    background-image: url(../img/notice1.jpeg);
+    width: 100%;
+    height: 210px;
+    text-align: center;
+    position: relative;
+}
+
+.uxdesign h5{
+	font-size: 1rem;
+}
+.uxdesign h6{
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.paragraph {
+    font-size: 9px;
+    color: grey;
+}
+
+.uxdesign ul li{
+    font-size: 9px !important;
+}
+
+.uxdesign span{
+	font-size: 9px !important;
+}
+
+.uxdesign_price {
+    margin-left: 67px !important;
+    color: rgba(128, 0, 0, 0.5);
+}
+
+}
+
+
+
+@media screen and (max-width: 991px){
+
+.imglit1 img {
+    width: 100%;
+    height: 168px;
+}
+
+.imglit2 img {
+    width: 100%;
+    height: 168px;
+}
+
+.imglitcover {
+    height: 172px;
+    border: 1px solid rgba(192, 192, 192, 0.8);
+}
+
+.viewbtn2 {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    font-size: 0.7rem;
+}
+
+.welcome p {
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 11px;
+}
+
+.thebestwaycover {
+    background-color: rgba(255,255,255,0.6);
+    height: 483px;
+    padding-top: 100px;
+}
+
+.noticeinner p{
+    font-size: 0.6rem !important;
+}
+
+.noticeinner h6, a{
+    font-size: 0.8rem !important;
+}
+
+
+.footerlit{
+	font-size: 9px;
+}
+
+.footerlist6 .fas{
+font-size: 12px !important;
+}
+
+.footerlist img {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer2 {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px 0px 50px 0px;
+    font-size: 10px;
+    font-family: arial;
+}
+
+.footerlist6 h6 {
+    font-size: 9px;
+}
+
+.footerheading h6{
+     font-size: 11px !important;
+}	
+
+.subscribe_input input[type="text"]{
+     font-size: 12px !important;
+}
+
+.latest p{
+	font-size: 12px;
+}
+
+.Subscribe {
+    background-color: #232425;
+    color: white;
+    padding: 8px 40px 8px 40px;
+    font-size: 11px;
+    border: none;
+}
+
+.make{
+	font-size: 10px !important;
+}
+
+.make2{
+    font-size: 8px !important;
+}
+	
+.topright a {
+    font-size: 10px !important;
+}
+
+.topleft ul .fab{
+    font-size: 13px;
+}
+
+.bottom1 ul{
+	font-size: 12px !important;
+}
+
+.logo img {
+    width: 140px !important; 
+    height: 80px !important;
+}
+
+.bottom1 {
+    margin-top: 50px;
+}
+
+.thebestway a {
+    border: 1px solid rgba(0, 128, 0, 0.7);
+    background-color: rgb(0, 128, 0 ,0.7);
+    padding: 10px 12px 10px 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+.thebestway h1{
+  font-size: 2rem;
+}
+
+.noticeback1{
+           background-color: rgba(0, 0, 128, 0.9);
+           width: 100%;
+           height: 180px;
+}
+
+.noticeback2{
+           background-color: rgba(0, 128, 0, 0.7);
+           width: 100%;
+           height: 180px;
+           color: white;
+           display: grid;
+           place-items: center;
+}
+.noticeback3{
+           background-color: rgba(0, 255, 255, 0.9);
+           width: 100%;
+           height: 180px;
+}
+
+.image {
+    background-image: url(../img/notice1.jpeg);
+    width: 100%;
+    height: 161px;
+    text-align: center;
+    position: relative;
+}
+
+.uxdesign{
+	margin: 0;
+	padding: 0;
+}
+
+.uxdesign ul {
+    float: left;
+    margin-left: 9px;
+}
+
+.uxdesign h5{
+	font-size: 1rem;
+}
+.uxdesign h6{
+	font-size: 14px;
+	margin-bottom: -10px;
+}
+
+.paragraph {
+    font-size: 9px;
+    color: grey;
+}
+
+.uxdesign ul li{
+    font-size: 9px !important;
+}
+
+.uxdesign span{
+    font-size: 9px !important;
+}
+
+.uxdesign_price {
+    margin-left: 26px !important;
+    color: rgba(128, 0, 0, 0.5);
+}
+
+.free {
+    margin-left: 36px !important;
+    color: rgba(0, 128, 0, 0.5);
+}
+.viewallcover {
+    padding: 30px 0px 60px 0px;
+}
+
+.viewbtn {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    color: white;
+    padding: 8px 40px 8px 40px;
+}
+
+.getoff{
+     font-size: 1.2rem;
+}
+
+.getoff2{
+     font-size: 1.rem;
+}
+
+.imglit2 {
+    padding: 10px 0px 10px 0px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.imglitcover2 {
+    height: 173px;
+    border: 1px solid rgba(192, 192, 192, 0.8);
+    margin-top: 20px;
+}
+
+.ContactUsForm table tr td input[type="text"]{
+      width: 150px;
+      height: 1.3rem;
+      margin-bottom: 15px;
+   }
+   .ContactUsForm table tr td input[type="email"]{
+      width: 150px;
+      height: 1.3rem;
+      margin-bottom: 15px;
+}
+
+.contactsubmit {
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.7);
+    padding: 5px 0px 5px 0px;
+    border: none;
+}
+
+.ContactUsInfo p{
+    font-size: 0.8rem;
+}
+
+.ContactUsInfo h6{
+    font-size: 0.9rem;
+}
+
+.ContactUsForm{
+	font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width: 677px){
+
+.ContactUsForm table tr td input[type="text"] {
+    width: 150px !important;
+    height: 4vh !important;
+    margin-bottom: 15px !important;
+}
+
+.ContactUsForm table tr td input[type="submit"] {
+    width: 150px !important;
+    height: 4vh !important;
+    margin-bottom: 15px !important;
+}
+
+}
+
+@media only screen and (max-width: 360px){
+
+.ContactUsForm table tr td input[type="text"] {
+    width: 150px !important;
+    height: 4vh !important;
+    margin-bottom: 15px !important;
+}
+
+.ContactUsForm table tr td input[type="submit"] {
+    width: 150px !important;
+    height: 4vh !important;
+    margin-bottom: 15px !important;
+}
+
+}
